@@ -19,7 +19,7 @@ namespace FortranCodeNavCore.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -934,7 +934,7 @@ namespace FortranCodeNavCore.Properties {
         ///c_ptr_2 - (Optional) Scalar of the same type as c_ptr_1.
         ///
         ///Return value:
-        ///The return value is of type logical; it is .false. if either c_ptr_1 is a C NULL pointer or if c_ptr1 and c_ptr_2 point to different addr [rest of string was truncated]&quot;;.
+        ///The return value is of type logical; it is .false. if either c_ptr_1 is a C NULL pointer or if c_ptr1 and c_ptr_2 point t [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string intr_c_associated {
             get {
@@ -956,8 +956,7 @@ namespace FortranCodeNavCore.Properties {
         ///Arguments:
         ///cptr - scalar of the type c_ptr. It is intent(in).
         ///fptr - pointer interoperable with cptr. It is intent(out).
-        ///shape - (Optional) Rank-one array of type integer with intent(in). It shall be present if and only if fptr is an array. The size must be equal to the rank of fptr.
-        ///http [rest of string was truncated]&quot;;.
+        ///shape - (Optional) Rank-one array of type integer with intent(in). It shall be present if and only if fptr is an array. The size must be equal to the rank  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string intr_c_f_pointer {
             get {
@@ -1029,7 +1028,7 @@ namespace FortranCodeNavCore.Properties {
         ///
         ///Return value:
         ///The return value is of type c_ptr and contains the C address of the argument.
-        ///http://fortranwiki.org/fortr [rest of string was truncated]&quot;;.
+        ///http://fortra [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string intr_c_loc {
             get {
@@ -1052,7 +1051,7 @@ namespace FortranCodeNavCore.Properties {
         ///x - The argument shall be an interoperable data entity.
         ///
         ///Return value:
-        ///The return value is of type integer and of the system-dependent kind c_size_t (from the iso_c_binding module). Its value is the number of bytes occupied by the argument. If the argument has the pointer attribute, the number of bytes of the storage area pointed to is return [rest of string was truncated]&quot;;.
+        ///The return value is of type integer and of the system-dependent kind c_size_t (from the iso_c_binding module). Its value is the number of bytes occupied by the argument. If the argument has the pointer attribute, the number of bytes of the storage area pointe [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string intr_c_sizeof {
             get {
@@ -1127,7 +1126,7 @@ namespace FortranCodeNavCore.Properties {
         ///Arguments:
         ///x - The type may be integer, real, or complex.
         ///y - (Optional; only allowed if x is not complex.) May be integer or real.
-        ///kind - (Optional) [rest of string was truncated]&quot;;.
+        ///kin [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string intr_cmplx {
             get {
@@ -1145,8 +1144,7 @@ namespace FortranCodeNavCore.Properties {
         ///Collective subroutine
         ///
         ///Syntax:
-        ///call co_broadcast(a, source_image [, stat, errmsg])
-        /// [rest of string was truncated]&quot;;.
+        ///call co_broadcast(a, source_image [, stat,  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string intr_co_broadcast {
             get {
@@ -1327,7 +1325,7 @@ namespace FortranCodeNavCore.Properties {
         ///result = count(mask [, dim, kind])
         ///Arguments:
         ///mask - The type shall be logical.
-        ///dim - (Optional) The  [rest of string was truncated]&quot;;.
+        ///dim - (Op [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string intr_count {
             get {
@@ -1340,7 +1338,7 @@ namespace FortranCodeNavCore.Properties {
         ///
         ///If a time source is available, time will be reported with microsecond resolution. If no time source is available, time is set to -1.0.
         ///
-        ///Note that time may contain a, system dependent, arbitrary offset and may not start with 0.0. For cpu_time, the absolute value is meaningless, only differences between subsequent calls to this subroutine, as shown in the example below,  [rest of string was truncated]&quot;;.
+        ///Note that time may contain a, system dependent, arbitrary offset and may not start with 0.0. For cpu_time, the absolute value is meaningless, only differences between subsequent calls to this subroutine, as shown in the example bel [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string intr_cpu_time {
             get {

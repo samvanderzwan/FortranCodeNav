@@ -672,9 +672,9 @@ namespace VSIntegration
         {
             public IntPtr Handle { get; private set; }
 
-            public MainWindowWrapper(int hWnd)
+            public MainWindowWrapper(IntPtr hWnd)
             {
-                Handle = new IntPtr(hWnd);
+                Handle = hWnd;
             }
         }
     }
